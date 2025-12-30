@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python packages installed locally (not in venv)
+Lib/
+Scripts/
+share/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Generated outputs
+pca_plot.png
+*.png
+
+# pip bootstrap
+get-pip.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
